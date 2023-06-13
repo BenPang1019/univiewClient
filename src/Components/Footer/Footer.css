@@ -1,0 +1,547 @@
+.footerF{
+    background-color:#205696 ;
+    overflow: hidden;
+    height: 25rem ;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20.6rem;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.footerF .web .containerOneF{
+    margin-left: -70rem;
+}
+
+.footerF .web .linkContainer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 9rem;
+}
+
+.footerF .web .listItemsOne{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 6px;
+    transition: all .2s ease-in-out; 
+}
+
+.footerF .web .listItemsOne:hover{
+    transform: scale(1.1); 
+    color: #949996;
+}
+
+.footerF .web .containerTwoF{
+    margin-left: -33rem;
+    margin-top: -17rem;
+}
+
+.footerF .web .iconOneF{
+    width: 1.5rem;
+    padding-right: 1rem;
+    margin-left: 5.5rem;
+}
+
+.footerF .web .iconF{
+    width: 1.5rem;
+    padding-right: 1rem;
+}
+
+.footerF .web .containerTwoPF{
+    margin-left: 9rem;
+    font-size: 20px;
+}
+
+.footerF .web .containerTwoPPF{
+    margin-left: 5.5rem;
+    margin-top: -1rem;
+    font-size: 20px;
+}
+
+.footerF .web .containerThreeF{
+    margin-left: 20rem;
+    margin-top: -18.3rem;
+}
+
+.footerF .web .containerThreePF{
+    margin-left: -0.5rem;
+    font-size: 20px;
+}
+
+.footerF .web .containerThreeHF{
+    margin-left: 4.5rem;
+}
+
+.footerF .web .containerThreePPF{
+    margin-left: -3rem;
+    font-size: 20px;
+}
+
+
+.footerF .web .containerFourF{
+    margin-left: 60rem;
+    margin-top: -16.3rem;
+}
+
+.footerF .web .containerMap{
+    margin-left: 10rem;
+}
+
+.footerF .web .googlemap{
+    height: 12rem;
+}
+
+.footerF .web .copyright{
+    background-color: #193960;
+    text-align: center;
+    margin-left: -60rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    margin-top: 6.5rem;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.footerF{
+    background-color:#205696 ;
+    overflow: hidden;
+    height: 80rem ;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.footerF .mobile .containerOneF{
+    margin-left: -5rem;
+}
+
+.footerF .mobile .listItemsOne{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -6rem;
+}
+.footerF .mobile .listItemsTwo{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.5rem;
+}
+.footerF .mobile .listItemsThree{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.5rem;
+}
+.footerF .mobile .listItemsFour{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -6.5rem;
+}
+.footerF .mobile .listItemsFive{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.8rem;
+}
+.footerF .mobile .listItemsSix{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+.footerF .mobile .listItemsSeven{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.3rem;
+}
+.footerF .mobile .listItemsEight{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+
+.footerF .mobile .containerTwoF{
+    margin-left: -8rem;
+}
+
+.footerF .mobile .iconOneF{
+    width: 1.5rem;
+    padding-right: 1rem;
+    margin-left: 5.5rem;
+}
+
+.footerF .mobile .iconF{
+    width: 1.5rem;
+    padding-right: 1rem;
+}
+
+.footerF .mobile .containerTwoPF{
+    margin-left: 9rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerTwoPPF{
+    margin-left: 5.5rem;
+    margin-top: -1rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerThreeF{
+    margin-left: -7rem;
+}
+
+.footerF .containerThreePF{
+    margin-left: -0.5rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerThreeHF{
+    margin-left: 4.5rem;
+}
+
+.footerF .mobile .containerThreePPF{
+    margin-left: -3rem;
+    font-size: 20px;
+}
+
+
+.footerF .mobile .containerFourF{
+    margin-left: -7rem;
+}
+
+.footerF .mobile .containerMap{
+    margin-left: 7rem;
+}
+
+.footerF .mobile .googlemap{
+    height: 12rem;
+}
+
+.footerF .mobile .copyright{
+    background-color: #193960;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 7.7rem;
+}
+
+.footerF .mobile .copyrightHOne{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.footerF{
+    background-color:#205696 ;
+    overflow: hidden;
+    height: 80rem ;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.footerF .mobile .containerOneF{
+    margin-left: -5rem;
+}
+
+.footerF .mobile .listItemsOne{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -6rem;
+}
+.footerF .mobile .listItemsTwo{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.5rem;
+}
+.footerF .mobile .listItemsThree{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.5rem;
+}
+.footerF .mobile .listItemsFour{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -6.5rem;
+}
+.footerF .mobile .listItemsFive{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.8rem;
+}
+.footerF .mobile .listItemsSix{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+.footerF .mobile .listItemsSeven{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.3rem;
+}
+.footerF .mobile .listItemsEight{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+
+.footerF .mobile .containerTwoF{
+    margin-left: -8rem;
+}
+
+.footerF .mobile .iconOneF{
+    width: 1.5rem;
+    padding-right: 1rem;
+    margin-left: 5.5rem;
+}
+
+.footerF .mobile .iconF{
+    width: 1.5rem;
+    padding-right: 1rem;
+}
+
+.footerF .mobile .containerTwoPF{
+    margin-left: 9rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerTwoPPF{
+    margin-left: 5.5rem;
+    margin-top: -1rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerThreeF{
+    margin-left: -7rem;
+}
+
+.footerF .containerThreePF{
+    margin-left: -0.5rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerThreeHF{
+    margin-left: 4.5rem;
+}
+
+.footerF .mobile .containerThreePPF{
+    margin-left: -3rem;
+    font-size: 20px;
+}
+
+
+.footerF .mobile .containerFourF{
+    margin-left: -7rem;
+}
+
+.footerF .mobile .containerMap{
+    margin-left: 7rem;
+}
+
+.footerF .mobile .googlemap{
+    height: 12rem;
+}
+
+.footerF .mobile .copyright{
+    background-color: #193960;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 9.2rem;
+}
+
+.footerF .mobile .copyrightHOne{
+    width: 680px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1340px)  {
+.footerF{
+    background-color:#205696 ;
+    overflow: hidden;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    text-align: center;
+    height: 50rem;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.footerF .mobile .containerOneF{
+    margin-left: -20rem;
+}
+
+.footerF .mobile .listItemsOne{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -6rem;
+}
+.footerF .mobile .listItemsTwo{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.5rem;
+}
+.footerF .mobile .listItemsThree{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.5rem;
+}
+.footerF .mobile .listItemsFour{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -6.5rem;
+}
+.footerF .mobile .listItemsFive{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.8rem;
+}
+.footerF .mobile .listItemsSix{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+.footerF .mobile .listItemsSeven{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -4.3rem;
+}
+.footerF .mobile .listItemsEight{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+
+.footerF .mobile .containerTwoF{
+    margin-left: 11rem;
+    margin-top: -17rem;
+}
+
+.footerF .mobile .iconOneF{
+    width: 1.5rem;
+    padding-right: 1rem;
+    margin-left: 5.5rem;
+}
+
+.footerF .mobile .iconF{
+    width: 1.5rem;
+    padding-right: 1rem;
+}
+
+.footerF .mobile .containerTwoPF{
+    margin-left: 9rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerTwoPPF{
+    margin-left: 5.5rem;
+    margin-top: -1rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerThreeF{
+    margin-left: -21rem;
+}
+
+.footerF .containerThreePF{
+    margin-left: -0.5rem;
+    font-size: 20px;
+}
+
+.footerF .mobile .containerThreeHF{
+    margin-left: 4.5rem;
+}
+
+.footerF .mobile .containerThreePPF{
+    margin-left: -3rem;
+    font-size: 20px;
+}
+
+
+.footerF .mobile .containerFourF{
+    margin-left: 13rem;
+    margin-top: -16rem;
+}
+
+.footerF .mobile .containerMap{
+    margin-left: 7rem;
+}
+
+.footerF .mobile .googlemap{
+    height: 12rem;
+}
+
+.footerF .mobile .copyright{
+    background-color: #193960;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-top: 12.1rem;
+}
+
+.footerF .mobile .copyrightHOne{
+    width: 980px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

@@ -1,0 +1,314 @@
+.blog{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.blog .web .containerOne{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90rem;
+}
+
+.blog .web .containerOneHeader{
+    font-size: 40px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .web .containerOneHeaderNew{
+    margin-left: -32rem;
+    font-size: 40px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .web .containerOnePrg{
+    width: 19rem;
+    text-align: left;
+    margin-top: -6rem;
+    margin-left: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.blog .web .containerOneCard{
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.blog .web .containerOneCard .image{
+    width: 357px;
+    height: 357px;
+    border-radius: 10px;
+}
+
+.blog .web .inline{
+    display: inline-block;
+    padding: 20px;
+}
+
+.blog .web .newsContainer{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog .web .pagination{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    font-size: 24px;
+}
+
+.blog .web .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.blog .web .pagination li.active{
+    color: black;
+}
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.blog{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+
+.blog .mobile .containerOne{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.blog .mobile .containerOneHeader{
+    font-size: 30px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .mobile .containerOneHeaderNew{
+    margin-left: -32rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .mobile .containerOnePrg{
+    width: 290px;
+    height: 80px;
+    text-align: left;
+    margin-top: -6rem;
+    margin-left: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    overflow: hidden;
+}
+
+.blog .mobile .containerOneCard{
+    margin-bottom: 5rem;
+}
+
+.blog .mobile .containerOneCard .image{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.blog .mobile .pagination{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    font-size: 15px;
+}
+
+.blog .mobile .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.blog .mobile .pagination li.active{
+    color: black;
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.blog{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+
+.blog .mobile .containerOne{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+.blog .mobile .containerOneHeader{
+    font-size: 40px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .mobile .containerOneHeaderNew{
+    margin-left: -32rem;
+    font-size: 40px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .mobile .containerOnePrg{
+    width: 350px;
+    height: 80px;
+    text-align: left;
+    margin-top: -6rem;
+    margin-left: 4rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.blog .mobile .containerOneCard{
+    margin-bottom: 5rem;
+}
+
+.blog .mobile .containerOneCard .image{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.blog .mobile .pagination{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    font-size: 18px;
+}
+
+.blog .mobile .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.blog .mobile .pagination li.active{
+    color: black;
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1340px)  {
+.blog{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+
+.blog .mobile .containerOne{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+}
+
+.blog .mobile .containerOneHeader{
+    font-size: 40px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .mobile .containerOneHeaderNew{
+    margin-left: -32rem;
+    font-size: 40px;
+    font-weight: 700;
+    color: #205696;
+}
+
+.blog .mobile .containerOnePrg{
+    width: 500px;
+    height: 80px;
+    text-align: left;
+    margin-top: -6rem;
+    margin-left: 8rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    overflow: hidden;
+}
+
+.blog .mobile .containerOneCard{
+    margin-bottom: 5rem;
+}
+
+.blog .mobile .containerOneCard .image{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.blog .mobile .pagination{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    font-size: 24px;
+}
+
+.blog .mobile .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.blog .mobile .pagination li.active{
+    color: black;
+}
+}

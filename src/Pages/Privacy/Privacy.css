@@ -1,0 +1,141 @@
+.privacy{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.privacy .web{
+    display: block;
+}
+
+.privacy .mobile{
+    display: none;
+}
+
+.privacy .web .containerOne{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.privacy .web .containerOneHOne{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.privacy .web .containerOneHTwo{
+    font-size: 30px;
+}
+
+.privacy .web .containerOnePOne{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .privacy .web{
+        display: none;
+    }
+    
+    .privacy .mobile{
+        display: block;
+    }
+    
+    .privacy .mobile .containerOne{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .privacy .mobile .containerOneHOne{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .privacy .mobile .containerOneHTwo{
+        font-size: 18px;
+    }
+    
+    .privacy .mobile .containerOnePOne{
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .privacy .web{
+        display: none;
+    }
+    
+    .privacy .mobile{
+        display: block;
+    }
+    
+    .privacy .mobile .containerOne{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .privacy .mobile .containerOneHOne{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .privacy .mobile .containerOneHTwo{
+        font-size: 20px;
+    }
+    
+    .privacy .mobile .containerOnePOne{
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .privacy .web{
+        display: none;
+    }
+    
+    .privacy .mobile{
+        display: block;
+    }
+    
+    .privacy .mobile .containerOne{
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .privacy .mobile .containerOneHOne{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .privacy .mobile .containerOneHTwo{
+        font-size: 28px;
+    }
+    
+    .privacy .mobile .containerOnePOne{
+        font-size: 23px;
+        line-height: 40px;
+    }
+}

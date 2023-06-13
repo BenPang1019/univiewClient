@@ -1,0 +1,141 @@
+.terms{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.terms .web{
+    display: block;
+}
+
+.terms .mobile{
+    display: none;
+}
+
+.terms .web .containerOne{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.terms .web .containerOneHOne{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.terms .web .containerOneHTwo{
+    font-size: 30px;
+}
+
+.terms .web .containerOnePOne{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .terms .web{
+        display: none;
+    }
+    
+    .terms .mobile{
+        display: block;
+    }
+    
+    .terms .mobile .containerOne{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .terms .mobile .containerOneHOne{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .terms .mobile .containerOneHTwo{
+        font-size: 18px;
+    }
+    
+    .terms .mobile .containerOnePOne{
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .terms .web{
+        display: none;
+    }
+    
+    .terms .mobile{
+        display: block;
+    }
+    
+    .terms .mobile .containerOne{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .terms .mobile .containerOneHOne{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .terms .mobile .containerOneHTwo{
+        font-size: 20px;
+    }
+    
+    .terms .mobile .containerOnePOne{
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .terms .web{
+        display: none;
+    }
+    
+    .terms .mobile{
+        display: block;
+    }
+    
+    .terms .mobile .containerOne{
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .terms .mobile .containerOneHOne{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .terms .mobile .containerOneHTwo{
+        font-size: 28px;
+    }
+    
+    .terms .mobile .containerOnePOne{
+        font-size: 23px;
+        line-height: 40px;
+    }
+}

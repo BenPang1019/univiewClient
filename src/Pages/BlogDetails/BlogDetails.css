@@ -1,0 +1,285 @@
+.blogDetails{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.blogDetails .web .newsImage{
+    height: 430px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogDetails .web .containerOne{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+    margin-top: 5rem;
+}
+
+.blogDetails .web .containerOneHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.8);
+}
+
+.blogDetails .web .containerOneHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #205696;
+}
+
+.blogDetails .web .containerOneHThree{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.blogDetails .web .containerTwo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+    margin-top: 5rem;
+}
+
+.blogDetails .web .description{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .web{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+
+    .blogDetails .mobile .newsImage{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .blogDetails .mobile .containerOne{
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        margin-top: 5rem;
+    }
+    
+    .blogDetails .mobile .containerOneHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+        color: rgba(30, 30, 30, 0.8);
+    }
+    
+    .blogDetails .mobile .containerOneHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 58px;
+        text-align: center;
+        color: #205696;
+    }
+    
+    .blogDetails .mobile .containerOneHThree{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 43px;
+        text-align: center;
+        color: #1E1E1E;
+    }
+    
+    .blogDetails .mobile .containerTwo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        margin-top: 2rem;
+    }
+    
+    .blogDetails .mobile .description{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .web{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+
+    .blogDetails .mobile .newsImage{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .blogDetails .mobile .containerOne{
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        margin-top: 5rem;
+    }
+    
+    .blogDetails .mobile .containerOneHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        text-align: center;
+        color: rgba(30, 30, 30, 0.8);
+    }
+    
+    .blogDetails .mobile .containerOneHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 58px;
+        text-align: center;
+        color: #205696;
+    }
+    
+    .blogDetails .mobile .containerOneHThree{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 43px;
+        text-align: center;
+        color: #1E1E1E;
+    }
+    
+    .blogDetails .mobile .containerTwo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        margin-top: 2rem;
+    }
+    
+    .blogDetails .mobile .description{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .web{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+
+    .blogDetails .mobile .newsImage{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .blogDetails .mobile .containerOne{
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        margin-top: 5rem;
+    }
+    
+    .blogDetails .mobile .containerOneHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 38px;
+        text-align: center;
+        color: rgba(30, 30, 30, 0.8);
+    }
+    
+    .blogDetails .mobile .containerOneHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 58px;
+        text-align: center;
+        color: #205696;
+    }
+    
+    .blogDetails .mobile .containerOneHThree{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 43px;
+        text-align: center;
+        color: #1E1E1E;
+    }
+    
+    .blogDetails .mobile .containerTwo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+        margin-top: 2rem;
+    }
+    
+    .blogDetails .mobile .description{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+}

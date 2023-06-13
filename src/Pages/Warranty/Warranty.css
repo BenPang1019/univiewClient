@@ -1,0 +1,190 @@
+.warranty{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.warranty .web{
+    display: block;
+}
+
+.warranty .mobile{
+    display: none;
+}
+
+.warranty .web .containerOne{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.warranty .web .containerOneHOne{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.warranty .web .containerOneHTwo{
+    font-size: 30px;
+}
+
+.warranty .web .containerOnePOne{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.warranty .web .table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.warranty .web td{
+    border: 1px solid black; 
+    padding: 8px;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+    .warranty .web{
+        display: none;
+    }
+    
+    .warranty .mobile{
+        display: block;
+    }
+    
+    .warranty .mobile .containerOne{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .warranty .mobile .containerOneHOne{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .warranty .mobile .containerOneHTwo{
+        font-size: 18px;
+    }
+    
+    .warranty .mobile .containerOnePOne{
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .warranty .mobile .table{
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    
+    .warranty .mobile td{
+        border: 1px solid black; 
+        padding: 4px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .warranty .web{
+        display: none;
+    }
+    
+    .warranty .mobile{
+        display: block;
+    }
+    
+    .warranty .mobile .containerOne{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .warranty .mobile .containerOneHOne{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .warranty .mobile .containerOneHTwo{
+        font-size: 20px;
+    }
+    
+    .warranty .mobile .containerOnePOne{
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .warranty .mobile .table{
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    
+    .warranty .mobile td{
+        border: 1px solid black; 
+        padding: 8px;
+    }
+}
+
+/* Small Screen **/
+@media (min-width: 769px) and (max-width: 1480px)  {
+    .warranty .web{
+        display: none;
+    }
+    
+    .warranty .mobile{
+        display: block;
+    }
+    
+    .warranty .mobile .containerOne{
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .warranty .mobile .containerOneHOne{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .warranty .mobile .containerOneHTwo{
+        font-size: 28px;
+    }
+    
+    .warranty .mobile .containerOnePOne{
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+    .warranty .mobile .table{
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    
+    .warranty .mobile td{
+        border: 1px solid black; 
+        padding: 8px;
+    }
+}

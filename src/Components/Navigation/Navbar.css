@@ -1,0 +1,448 @@
+.navbarN{
+   overflow: hidden;
+   text-align: center;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.navbarN .web ul{
+    list-style-type: none;
+}
+
+.navbarN .web .headerContainerN{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #205696;
+    margin-top: 0rem;  
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+    color: white;
+}
+
+.navbarN .web .headerN{
+    display: inline-block;
+    font-size: 48px;
+    margin-right: 30rem;
+    margin-left: 35rem;
+}
+
+.navbarN .web .iconN{
+    display: inline-block;
+    width: 2rem;
+}
+
+.navbarN .web .listContainerN{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #193960;
+    margin-top: 0rem;
+}
+
+.navbarN .web .listItems{
+    display: inline-block;
+    font-size: 24px;
+    padding: 1.2rem;
+    padding-left: 7rem;
+}
+
+.navbarN .web .listItemsLink{
+    color: white;
+    text-decoration: none;
+}
+
+.navbarN .web .firstListItems{
+    margin-left: -7.6rem;
+}
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.navbarN{
+    overflow: hidden;
+    text-align: center;
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.navbarN .mobile ul{
+    list-style-type: none; 
+}
+
+.navbarN .mobile .inlineF{
+    display: inline-block;
+}
+
+.navbarN .mobile .headerContainerN{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #205696;
+    color: white;
+    
+}
+
+.navbarN .mobile .headerN{
+    font-size: 40px;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.navbarN .mobile .iconMenu{
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+    margin-top: 3.7rem;
+    z-index: 3;
+    width: 2rem;
+}
+
+.navbarN .mobile .iconMenu:active{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.navbarN .mobile .iconN{
+    width: 2rem;
+}
+
+.navbarN .mobile .navIcon{
+    width: 2rem;
+    margin-bottom: -0.3rem;
+    
+}
+
+.navbarN .mobile .listItems{
+    font-size: 24px;
+    padding: 1rem;
+    margin-left: -4rem;
+}
+
+.navbarN .mobile .listItemsLink{
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    height: 40px;
+    padding-top: 1rem;
+    display: block;
+    font-size: 24px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarN .mobile .firstListItems{
+    margin-top: 3rem;
+}
+
+.navbarN .mobile .close{
+    width: 1.3rem;
+}
+
+.navbarN .mobile .closeContainer{
+    margin-top: -18rem;
+    margin-left: 12rem;
+}
+
+.navbarN .mobile .navbarContainer {
+    width: 100%;
+    height: 105%;
+    position: fixed;
+    z-index: 2;
+    background: #193960;
+    margin-top: -8rem;
+}
+  
+.navbarContainerShow {
+    animation: slideDown 0.5s ease-out forwards;
+}
+
+.navbarContainerHide {
+    animation: slideUp 0.5s ease-in forwards;
+}
+  
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-170%);
+    }
+}
+
+}
+
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.navbarN{
+    overflow: hidden;
+    text-align: center;
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.navbarN .mobile ul{
+    list-style-type: none; 
+}
+
+.navbarN .mobile .inlineF{
+    display: inline-block;
+}
+
+.navbarN .mobile .headerContainerN{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #205696;
+    color: white;
+    
+}
+
+.navbarN .mobile .headerN{
+    font-size: 40px;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.navbarN .mobile .iconMenu{
+    position: absolute;
+    left: 0;
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    z-index: 3;
+    width: 2rem;
+}
+
+.navbarN .mobile .iconMenu:active{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.navbarN .mobile .iconN{
+    width: 2rem;
+}
+
+.navbarN .mobile .navIcon{
+    width: 2rem;
+    margin-bottom: -0.3rem;
+    
+}
+
+.navbarN .mobile .listItems{
+    font-size: 24px;
+    padding: 1rem;
+    margin-left: -4rem;
+}
+
+.navbarN .mobile .listItemsLink{
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    height: 40px;
+    padding-top: 1rem;
+    display: block;
+    font-size: 24px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarN .mobile .firstListItems{
+    margin-top: 3rem;
+}
+
+.navbarN .mobile .close{
+    width: 1.3rem;
+}
+
+.navbarN .mobile .closeContainer{
+    margin-top: -18rem;
+    margin-left: 12rem;
+}
+
+.navbarN .mobile .navbarContainer {
+    width: 100%;
+    height: 105%;
+    position: fixed;
+    z-index: 2;
+    background: #193960;
+    margin-top: -8rem;
+}
+  
+.navbarContainerShow {
+    animation: slideDown 0.5s ease-out forwards;
+}
+
+.navbarContainerHide {
+    animation: slideUp 0.5s ease-in forwards;
+}
+  
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-120%);
+    }
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1340px)  {
+.navbarN{
+    overflow: hidden;
+    text-align: center;
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.navbarN .mobile ul{
+    list-style-type: none; 
+}
+
+.navbarN .mobile .inlineF{
+    display: inline-block;
+}
+
+.navbarN .mobile .headerContainerN{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #205696;
+    color: white;
+    
+}
+
+.navbarN .mobile .headerN{
+    font-size: 40px;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.navbarN .mobile .iconMenu{
+    position: absolute;
+    left: 0;
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    z-index: 3;
+    width: 2rem;
+}
+
+.navbarN .mobile .iconMenu:active{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.navbarN .mobile .iconN{
+    width: 2rem;
+}
+
+.navbarN .mobile .navIcon{
+    width: 2rem;
+    margin-bottom: -0.3rem;
+    
+}
+
+.navbarN .mobile .listItems{
+    font-size: 24px;
+    padding: 1rem;
+    margin-left: -4rem;
+}
+
+.navbarN .mobile .listItemsLink{
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    height: 40px;
+    padding-top: 1rem;
+    display: block;
+    font-size: 24px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarN .mobile .firstListItems{
+    margin-top: 3rem;
+}
+
+.navbarN .mobile .close{
+    width: 1.3rem;
+}
+
+.navbarN .mobile .closeContainer{
+    margin-top: -18rem;
+    margin-left: 12rem;
+}
+
+.navbarN .mobile .navbarContainer {
+    width: 100%;
+    height: 105%;
+    position: fixed;
+    z-index: 2;
+    background: #193960;
+    margin-top: -8rem;
+}
+  
+.navbarContainerShow {
+    animation: slideDown 0.5s ease-out forwards;
+}
+
+.navbarContainerHide {
+    animation: slideUp 0.5s ease-in forwards;
+}
+  
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-120%);
+    }
+}
+}

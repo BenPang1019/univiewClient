@@ -1,0 +1,1120 @@
+.product{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.product .web .filterContainer{
+    width: 1250px;
+    height: 668px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.product .web .filterHOne{
+    width: 187px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+    margin-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.product .web .filterInput{
+    width: 811px;
+    height: 50px;
+    background: #FFFFFF;
+    margin-left: -22rem;
+    border: none;
+}
+
+.product .web .filterButtonSearchContainer{
+    margin-top: -3.23rem;
+    margin-left: 38rem;
+}
+
+.product .web .filterSearchButton{
+    width: 142px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+    
+}
+
+.product  .web .filterSearchButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .web .filterButtonClearContainer{
+    margin-top: -3.23rem;
+    margin-left: 60rem;
+}
+
+.product .web .filterClearButton{
+    width: 142px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product .web .filterClearButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .web ul{
+    list-style-type: none;
+}
+
+.product .web .containerCategory{
+    text-align: left;
+    width: 670px;
+    height: 370px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .web .categoryUl{
+    height: 400px;
+    margin-left: 2rem;  
+    margin-right: 1rem;
+}
+
+.product .web .contaierSubCategory{
+    margin-left: 1rem;
+    width: 280px;
+    height: 120px;
+    overflow-y:scroll;
+}
+
+.product .web ::-webkit-scrollbar {
+    width: 10px;
+    border:5rem
+}
+
+.product .web ::-webkit-scrollbar-track {
+    background: rgba(217, 217, 217, 0.5); 
+    border-radius: 10px;
+}
+
+.product .web ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px
+}
+
+.product .web ::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.product .web .containerCategoryH{
+    margin-left: 2.5rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .web .nextRowCategory{
+    width: 300px;
+}
+
+.product .web .containerInputCategory{
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.product .web li:focus{
+    color: red;
+}
+
+.product .web .containerBrand{
+    text-align: left;
+    margin-left: 40rem;
+    margin-top: -24.5rem;
+    width: 850px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.product .web .containerBrandH{
+    margin-left: 2.3rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .web .brandUl{
+    margin-top: -0.5rem;
+}
+
+.product .web .nextRowBrand{
+    margin-left: 8rem;
+    margin-top: -21rem;
+}
+
+.product .web .containerType{
+    text-align: left;
+    margin-left: 60rem;
+    margin-top: -23.6rem;
+    width: 850px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.product .web .typeUl{
+    margin-top: -0.5rem;
+}
+
+.product .web .containerTypeH{
+    margin-left: 2.3rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .web .selectOptionContainer{
+    margin-left: 60rem;
+    margin-top: 3rem;
+}
+
+.product .web .selectOption{
+    border: none;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #000000;
+}
+
+.product .web .inline{
+    display: inline-block;
+}
+
+.product .web .productContainer{
+    width: 1200px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .web .productContainer .imageContainer {
+    width: 262px;
+    height: 263px;
+    border-radius: 1rem;
+    border-color: #205696;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.product .web .productContainer .imageContainer .image{
+    border-radius: 1rem;
+    width: 262px;
+    height: 263px;
+}
+
+.product .web .productContainer .imageContainer .productName{
+    width: 262px;
+    height: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #205696;
+}
+
+.product .web .productContainer .imageContainer .productPrice{
+    margin-top: -1.13rem;
+    width: 262px;
+    height: 24px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.product .web .pagination{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.product .web .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.product .web .pagination li.active{
+    color: black;
+}
+
+.product .web .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.product .web .grow:hover { 
+    transform: scale(1.1); 
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.product{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.product .mobile .filterContainer{
+    width: 350px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    overflow-y: scroll;
+}
+
+.product .mobile .filterHOne{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    color: #205696;
+    padding-top: 1.5rem;
+}
+
+.product .mobile .filterInput{
+    width: 280px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.product .mobile .filterButtonSearchContainer{
+    margin-top: 1rem;
+    margin-right: 6rem;
+}
+
+.product .mobile .filterSearchButton{
+    width: 80px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product  .mobile .filterSearchButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .mobile .filterButtonClearContainer{
+    margin-top: -3.25rem;
+    margin-left: 6rem;
+}
+
+.product .mobile .filterClearButton{
+    width: 80px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product .mobile .filterClearButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .mobile ul{
+    list-style-type: none;
+}
+
+.product .mobile .containerCategory{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .mobile .containerCategoryH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #205696;
+    margin-top: 2rem;
+}
+
+.product .mobile .categoryUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+.product .mobile .contaierSubCategory{
+    height: 90px;
+    margin-left: 2rem;
+    overflow-y:scroll;
+}
+
+.product .mobile .containerBrand{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .mobile .containerBrandH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .mobile .brandUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 0.9rem;
+}
+
+
+.product .mobile .containerType{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.product .mobile .containerTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .mobile .typeUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 0.9rem;
+}
+
+
+.product .mobile .inline{
+    display: inline-block;
+}
+
+.product .mobile .productContainer{
+    width: 350px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .mobile .productContainer .imageContainer {
+    width: 120px;
+    height: 120px;
+    border-radius: 1rem;
+    border-color: #205696;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.product .mobile .productContainer .imageContainer .image{
+    border-radius: 1rem;
+    width: 120px;
+    height: 120px;
+}
+
+.product .mobile .productContainer .imageContainer .productName{
+    width: 120px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #205696;
+}
+
+
+.product .mobile .pagination{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .mobile .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.product .mobile .pagination li.active{
+    color: black;
+}
+
+.product .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.product .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.product{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.product .mobile .filterContainer{
+    width: 420px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    overflow-y: scroll;
+}
+
+.product .mobile .filterHOne{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    color: #205696;
+    padding-top: 1.5rem;
+}
+
+.product .mobile .filterInput{
+    width: 380px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.product .mobile .filterButtonSearchContainer{
+    margin-top: 1rem;
+    margin-right: 6rem;
+}
+
+.product .mobile .filterSearchButton{
+    width: 80px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product  .mobile .filterSearchButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .mobile .filterButtonClearContainer{
+    margin-top: -3.25rem;
+    margin-left: 6rem;
+}
+
+.product .mobile .filterClearButton{
+    width: 80px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product .mobile .filterClearButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .mobile ul{
+    list-style-type: none;
+}
+
+.product .mobile .containerCategory{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .mobile .containerCategoryH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+    margin-top: 2rem;
+}
+
+.product .mobile .categoryUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+.product .mobile .contaierSubCategory{
+    height: 90px;
+    margin-left: 2rem;
+    overflow-y:scroll;
+}
+
+.product .mobile .containerBrand{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .mobile .containerBrandH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .mobile .brandUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 0.9rem;
+}
+
+
+.product .mobile .containerType{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.product .mobile .containerTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .mobile .typeUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 0.9rem;
+}
+
+
+.product .mobile .inline{
+    display: inline-block;
+}
+
+.product .mobile .productContainer{
+    width: 480px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .mobile .productContainer .imageContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+    border-color: #205696;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.product .mobile .productContainer .imageContainer .image{
+    border-radius: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.product .mobile .productContainer .imageContainer .productName{
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #205696;
+}
+
+
+.product .mobile .pagination{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .mobile .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.product .mobile .pagination li.active{
+    color: black;
+}
+
+.product .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.product .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1340px)  {
+.product{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.web{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.product .mobile .filterContainer{
+    width: 700px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    overflow-y: scroll;
+}
+
+.product .mobile .filterHOne{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 48px;
+    color: #205696;
+    padding-top: 1.5rem;
+}
+
+.product .mobile .filterInput{
+    width: 600px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.product .mobile .filterButtonSearchContainer{
+    margin-top: 1rem;
+    margin-right: 6rem;
+}
+
+.product .mobile .filterSearchButton{
+    width: 80px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product  .mobile .filterSearchButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .mobile .filterButtonClearContainer{
+    margin-top: -3.25rem;
+    margin-left: 6rem;
+}
+
+.product .mobile .filterClearButton{
+    width: 80px;
+    height: 51.5px;
+    background: #205696;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: transparent;
+    transition: all .2s ease-in-out;
+    border:  solid 2px;
+    cursor: pointer;
+}
+
+.product .mobile .filterClearButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+.product .mobile ul{
+    list-style-type: none;
+}
+
+.product .mobile .containerCategory{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .mobile .containerCategoryH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+    margin-top: 2rem;
+}
+
+.product .mobile .categoryUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+.product .mobile .contaierSubCategory{
+    height: 90px;
+    margin-left: 2rem;
+    overflow-y:scroll;
+}
+
+.product .mobile .containerBrand{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+
+.product .mobile .containerBrandH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .mobile .brandUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 0.9rem;
+}
+
+
+.product .mobile .containerType{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.product .mobile .containerTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.product .mobile .typeUl{
+    height: 200px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 0.9rem;
+}
+
+
+.product .mobile .inline{
+    display: inline-block;
+}
+
+.product .mobile .productContainer{
+    width: 700px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .mobile .productContainer .imageContainer {
+    width: 220px;
+    height: 220px;
+    border-radius: 1rem;
+    border-color: #205696;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.product .mobile .productContainer .imageContainer .image{
+    border-radius: 1rem;
+    width: 220px;
+    height: 220px;
+}
+
+.product .mobile .productContainer .imageContainer .productName{
+    width: 220px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #205696;
+}
+
+
+.product .mobile .pagination{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product .mobile .pagination li{
+    display: inline-block;
+    margin-right: 15px; 
+    color: grey;
+    cursor: pointer;
+}
+
+.product .mobile .pagination li.active{
+    color: black;
+}
+
+.product .mobile .grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.product .mobile .grow:hover { 
+    transform: scale(1.1); 
+}
+}

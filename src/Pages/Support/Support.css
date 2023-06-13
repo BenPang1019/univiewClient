@@ -1,0 +1,1855 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+.support{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.support .web .containerOne{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+}
+
+.support .web .containerOneH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .web .containerOneImage{
+    display: inline-block;
+    padding: 80px;
+}
+
+.support .web .containerOneImageH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #205696;
+}
+
+.support .web .containerOneImageP{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.support .web .containerTwo{
+    margin-top: 7rem;
+}
+
+.support .web .containerTwoHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .web .containerTwoHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.support .web .containerTwoForm{
+    width: 1188px;
+    height: 1049px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.support .web .containerTwoFormServiceType{
+    padding-top: 3rem;
+}
+
+.support .web .containerTwoFormServiceTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .web .serviceRadio{
+    display: inline-block;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.support .web .containerTwoFormUserDetail{
+    margin-top: 3rem;
+}
+
+.support .web .userDetailLabelContainer{
+    width: 220px;
+    height: 50px;
+    background: #205696;
+    margin-left: 10rem;
+    text-align: left;
+}
+
+.support .web .userDetailLabel{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.support .web .userDetailInput{
+    width: 591px;
+    height: 48px;   
+    margin-bottom: 1.2rem;
+    border: none;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .web .userDetailInputContainer{
+    margin-top: -16.1rem;
+    margin-left: 10.5rem;
+}
+
+.support .web .containerTwoFormProductType{
+    margin-top: 3rem;
+}
+
+.support .web .containerTwoFormProductTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .web .questionDetailLabelContainer{
+    width: 220px;
+    height: 50px;
+    background: #205696;
+    margin-left: 10rem;
+    text-align: left;
+}
+
+.support .web .questionDetailLabel{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.support .web .questionDetailTextArea{
+    border: none;
+    width: 590px;
+    height: 151px;
+    margin-left: 10.4rem;
+    margin-top: -3.13rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .web .submitBtn{
+    margin-left: 39rem;
+    margin-top: 5rem;
+}
+
+.support .web .submit{
+    border: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all .2s ease-in-out;
+    border:  solid 3px;
+    cursor: pointer;
+}
+
+.support .web  .submit:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+
+/* Second */
+.support .web .containerThree{
+    margin-top: 7rem;
+}
+
+.support .web .containerThreeHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .web .containerThreeHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.support .web .containerThreeForm{
+    width: 1188px;
+    height: 826px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.support .web .containerThreeFormServiceType{
+    padding-top: 3rem;
+}
+
+.support .web .containerThreeFormServiceTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .web .serviceRadio{
+    display: inline-block;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.support .web .containerThreeFormUserDetail{
+    margin-top: 3rem;
+    padding-top: 5rem;
+}
+
+.support .web .userDetailLabelContainer{
+    width: 220px;
+    height: 50px;
+    background: #205696;
+    margin-left: 10rem;
+    text-align: left;
+}
+
+.support .web .userDetailLabel{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.support .web .userDetailInput{
+    width: 591px;
+    height: 48px;   
+    margin-bottom: 1.2rem;
+    border: none;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .web .userDetailInputContainer{
+    margin-top: -16.1rem;
+    margin-left: 10.5rem;
+}
+
+.support .web .userDetailInputContainerThree{
+    margin-top: -11.77rem;
+    margin-left: 10.5rem;
+}
+
+.support .web .containerThreeFormProductType{
+    margin-top: 3rem;
+}
+
+.support .web .containerThreeFormProductTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .web .productRadio{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    display: inline-block;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+}
+
+.support .web .questionDetailLabelContainer{
+    width: 220px;
+    height: 50px;
+    background: #205696;
+    margin-left: 10rem;
+    text-align: left;
+}
+
+.support .web .questionDetailLabel{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.support .web .questionDetailTextArea{
+    border: none;
+    width: 590px;
+    height: 151px;
+    margin-left: 10.4rem;
+    margin-top: -3.13rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .web .submitBtn{
+    margin-left: 39rem;
+    margin-top: 4rem;
+}
+
+.support .web .submit{
+    border: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.support .web .containerFour{
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.support .web .containerFourHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .web .containerFourHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.support  .web .accordion {
+    background-color: #D9D9D9;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.support .web .accordionContent{
+    text-align: left; 
+    text-align: justify;
+    margin-left: 1rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    width:60rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.support .web .accordionContent.active {
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in;
+}
+
+
+.support .web .accordionContent .image{
+    margin-left: 45rem;
+    margin-top: -11rem;
+}
+
+.support .web .accordionBullet{    
+    background-color: #205696;
+    width: 75px;
+    padding-top: 1.3rem;
+    margin-left: 60px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.support .web .accordionH{
+    width: 60rem;
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;  
+}
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.support{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.mobile{
+    display: block;
+}
+
+.web{
+    display: none;
+}
+
+.support .mobile .containerOne{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+}
+
+.support .mobile .containerOneH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .mobile .containerOneImage{
+    display: inline-block;
+    padding: 80px;
+}
+
+.support .mobile .containerOneImageH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #205696;
+}
+
+.support .mobile .containerOneImageP{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.support .mobile .containerTwo{
+    margin-top: 7rem;
+}
+
+.support .mobile .containerTwoHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .mobile .containerTwoHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.support .mobile .containerTwoForm{
+    width: 350px;
+    height: 1800px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.support .mobile .containerTwoFormServiceType{
+    padding-top: 3rem;
+}
+
+.support .mobile .containerTwoFormServiceTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .mobile .serviceRadio{
+    display: inline-block;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.support .mobile .containerTwoFormUserDetail{
+    margin-top: 3rem;
+}
+
+.support .mobile .userDetailLabelContainerC{
+    width: 200px;
+    height: 50px;
+    background-color: #205696;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+}
+
+.support .mobile .userDetailLabel{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.support .mobile .userDetailInput{
+    width: 250px;
+    height: 48px;   
+    border: none;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 2rem;
+    margin-left: -1.5rem;
+}
+
+.support .mobile .containerTwoFormProductType{
+    margin-top: 3rem;
+}
+
+.support .mobile .containerTwoFormProductTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .mobile .questionDetailLabelContainer{
+    width: 200px;
+    height: 50px;
+    background: #205696;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.support .mobile .questionDetailLabel{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.support .mobile .questionDetailTextArea{
+    border: none;
+    width: 250px;
+    height: 150px;
+    margin-top: 1rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .mobile .submitBtn{
+    margin-top: 5rem;
+}
+
+.support .mobile .submit{
+    border: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* Second */
+.support .mobile .containerThree{
+    margin-top: 7rem;
+}
+
+.support .mobile .containerThreeHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.support .mobile .containerThreeHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.support .mobile .containerThreeForm{
+    width: 350px;
+    height: 1450px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.support .mobile .containerThreeFormUserDetailF{
+    padding-top: 3rem;
+}
+
+.support .mobile .userDetailLabelContainerF{
+    width: 220px;
+    height: 50px;
+    background: #205696;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+}
+
+.support .mobile .userDetailLabelF{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    
+}
+
+.support .mobile .userDetailInputF{
+    width: 250px;
+    height: 48px;   
+    margin-top: 2rem;
+    margin-left: -1rem;
+    border: none;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .mobile .userDetailInputContainerF{
+    margin-top: -12rem;
+    margin-left: 10.5rem;
+}
+
+.support .mobile .containerThreeFormProductType{
+    margin-top: 3rem;
+}
+
+.support .mobile .containerThreeFormProductTypeH{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #205696;
+}
+
+.support .mobile .productRadio{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.support .mobile .questionDetailLabelContainerF{
+    width: 200px;
+    height: 50px;
+    background: #205696;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.support .mobile .questionDetailLabelF{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.support .mobile .questionDetailTextAreaF{
+    border: none;
+    width: 250px;
+    height: 150px;
+    margin-top: 1rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.support .mobile .submitBtnF{
+    margin-top: 5rem;
+}
+
+.support .mobile .submitF{
+    border: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.support .mobile .containerFour{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.support .mobile .containerFourHOne{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+    margin-top: 5rem;
+}
+
+.support .mobile .containerFourHTwo{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.support  .mobile .accordion {
+    background-color: #D9D9D9;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.support .mobile .accordionContent{
+    text-align: left; 
+    margin-left: 1rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    width:200px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.support .mobile .accordionContent.active {
+    max-height: 1000px;
+    transition: max-height 1s ease-in;
+}
+
+.support .mobile .accordionContent .image{
+    margin-left: 1.5rem;
+}
+
+.support .mobile .accordionBullet{    
+    background-color: #205696;
+    width: 75px;
+    padding-top: 1.3rem;
+    margin-left: 60px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.support .mobile .accordionH{
+    width: 200px;
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;  
+}
+
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+    .support{
+        overflow: hidden;
+        text-align: center;
+        font-family: 'Urbanist';
+    }
+    
+    .mobile{
+        display: block;
+    }
+    
+    .web{
+        display: none;
+    }
+    
+    .support .mobile .containerOne{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8rem;
+    }
+    
+    .support .mobile .containerOneH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+    }
+    
+    .support .mobile .containerOneImage{
+        display: inline-block;
+        padding: 80px;
+    }
+    
+    .support .mobile .containerOneImageH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #205696;
+    }
+    
+    .support .mobile .containerOneImageP{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .support .mobile .containerTwo{
+        margin-top: 7rem;
+    }
+    
+    .support .mobile .containerTwoHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+    }
+    
+    .support .mobile .containerTwoHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .support .mobile .containerTwoForm{
+        width: 350px;
+        height: 1800px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerTwoFormServiceType{
+        padding-top: 3rem;
+    }
+    
+    .support .mobile .containerTwoFormServiceTypeH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #205696;
+    }
+    
+    .support .mobile .serviceRadio{
+        display: inline-block;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    .support .mobile .containerTwoFormUserDetail{
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .userDetailLabelContainerC{
+        width: 200px;
+        height: 50px;
+        background-color: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6rem;
+    }
+    
+    .support .mobile .userDetailLabel{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    
+    .support .mobile .userDetailInput{
+        width: 250px;
+        height: 48px;   
+        border: none;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+    
+    .support .mobile .containerTwoFormProductType{
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerTwoFormProductTypeH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #205696;
+    }
+    
+    .support .mobile .questionDetailLabelContainer{
+        width: 200px;
+        height: 50px;
+        background: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    
+    .support .mobile .questionDetailLabel{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    
+    .support .mobile .questionDetailTextArea{
+        border: none;
+        width: 250px;
+        height: 150px;
+        margin-top: 1rem;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .support .mobile .submitBtn{
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .submit{
+        border: none;
+        width: 142px;
+        height: 50px;
+        background: #205696;
+        border-radius: 10px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    
+    /* Second */
+    .support .mobile .containerThree{
+        margin-top: 7rem;
+    }
+    
+    .support .mobile .containerThreeHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+    }
+    
+    .support .mobile .containerThreeHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .support .mobile .containerThreeForm{
+        width: 350px;
+        height: 1450px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerThreeFormUserDetailF{
+        padding-top: 3rem;
+    }
+    
+    .support .mobile .userDetailLabelContainerF{
+        width: 220px;
+        height: 50px;
+        background: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6rem;
+    }
+    
+    .support .mobile .userDetailLabelF{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        
+    }
+    
+    .support .mobile .userDetailInputF{
+        width: 250px;
+        height: 48px;   
+        margin-top: 2rem;
+        margin-left: -1rem;
+        border: none;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .support .mobile .userDetailInputContainerF{
+        margin-top: -12rem;
+        margin-left: 10.5rem;
+    }
+    
+    .support .mobile .containerThreeFormProductType{
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerThreeFormProductTypeH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #205696;
+    }
+    
+    .support .mobile .productRadio{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        color: #000000;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .support .mobile .questionDetailLabelContainerF{
+        width: 200px;
+        height: 50px;
+        background: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    
+    .support .mobile .questionDetailLabelF{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    
+    .support .mobile .questionDetailTextAreaF{
+        border: none;
+        width: 250px;
+        height: 150px;
+        margin-top: 1rem;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .support .mobile .submitBtnF{
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .submitF{
+        border: none;
+        width: 142px;
+        height: 50px;
+        background: #205696;
+        border-radius: 10px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .support .mobile .containerFour{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .containerFourHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .containerFourHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 2rem;
+    }
+    
+    .support  .mobile .accordion {
+        background-color: #D9D9D9;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        display: flex;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .support .mobile .accordionContent{
+        text-align: left; 
+        margin-left: 1rem;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        width:200px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease-out;
+    }
+    
+    .support .mobile .accordionContent.active {
+        max-height: 1000px;
+        transition: max-height 1s ease-in;
+    }
+    
+    .support .mobile .accordionContent .image{
+        margin-left: 1.5rem;
+    }
+    
+    .support .mobile .accordionBullet{    
+        background-color: #205696;
+        width: 75px;
+        padding-top: 1.3rem;
+        margin-left: 60px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .support .mobile .accordionH{
+        width: 200px;
+        text-align: left;
+        margin-left: 30px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;  
+    }
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1340px)  {
+    .support{
+        overflow: hidden;
+        text-align: center;
+        font-family: 'Urbanist';
+    }
+    
+    .mobile{
+        display: block;
+    }
+    
+    .web{
+        display: none;
+    }
+    
+    .support .mobile .containerOne{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8rem;
+    }
+    
+    .support .mobile .containerOneH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+    }
+    
+    .support .mobile .containerOneImage{
+        display: inline-block;
+        padding: 80px;
+    }
+    
+    .support .mobile .containerOneImageH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #205696;
+    }
+    
+    .support .mobile .containerOneImageP{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .support .mobile .containerTwo{
+        margin-top: 7rem;
+    }
+    
+    .support .mobile .containerTwoHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+    }
+    
+    .support .mobile .containerTwoHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .support .mobile .containerTwoForm{
+        width: 950px;
+        height: 1800px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerTwoFormServiceType{
+        padding-top: 3rem;
+    }
+    
+    .support .mobile .containerTwoFormServiceTypeH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #205696;
+    }
+    
+    .support .mobile .serviceRadio{
+        display: inline-block;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    .support .mobile .containerTwoFormUserDetail{
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .userDetailLabelContainerC{
+        width: 450px;
+        height: 50px;
+        background-color: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6rem;
+    }
+    
+    .support .mobile .userDetailLabel{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    
+    .support .mobile .userDetailInput{
+        width: 500px;
+        height: 48px;   
+        border: none;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+    
+    .support .mobile .containerTwoFormProductType{
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerTwoFormProductTypeH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #205696;
+    }
+    
+    .support .mobile .questionDetailLabelContainer{
+        width: 500px;
+        height: 50px;
+        background: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .support .mobile .questionDetailLabel{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    
+    .support .mobile .questionDetailTextArea{
+        border: none;
+        width: 550px;
+        height: 150px;
+        margin-top: 1rem;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .support .mobile .submitBtn{
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .submit{
+        border: none;
+        width: 142px;
+        height: 50px;
+        background: #205696;
+        border-radius: 10px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    
+    /* Second */
+    .support .mobile .containerThree{
+        margin-top: 7rem;
+    }
+    
+    .support .mobile .containerThreeHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+    }
+    
+    .support .mobile .containerThreeHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .support .mobile .containerThreeForm{
+        width: 950px;
+        height: 1450px;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerThreeFormUserDetailF{
+        padding-top: 3rem;
+    }
+    
+    .support .mobile .userDetailLabelContainerF{
+        width: 500px;
+        height: 50px;
+        background: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6rem;
+    }
+    
+    .support .mobile .userDetailLabelF{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        
+    }
+    
+    .support .mobile .userDetailInputF{
+        width: 530px;
+        height: 48px;   
+        margin-top: 2rem;
+        margin-left: -1rem;
+        border: none;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .support .mobile .userDetailInputContainerF{
+        margin-top: -12rem;
+        margin-left: 10.5rem;
+    }
+    
+    .support .mobile .containerThreeFormProductType{
+        margin-top: 3rem;
+    }
+    
+    .support .mobile .containerThreeFormProductTypeH{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #205696;
+    }
+    
+    .support .mobile .productRadio{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        color: #000000;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .support .mobile .questionDetailLabelContainerF{
+        width: 500px;
+        height: 50px;
+        background: #205696;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .support .mobile .questionDetailLabelF{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    
+    .support .mobile .questionDetailTextAreaF{
+        border: none;
+        width: 550px;
+        height: 150px;
+        margin-top: 1rem;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .support .mobile .submitBtnF{
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .submitF{
+        border: none;
+        width: 142px;
+        height: 50px;
+        background: #205696;
+        border-radius: 10px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .support .mobile .containerFour{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .containerFourHOne{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #205696;
+        margin-top: 5rem;
+    }
+    
+    .support .mobile .containerFourHTwo{
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 2rem;
+    }
+    
+    .support  .mobile .accordion {
+        background-color: #D9D9D9;
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        display: flex;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .support .mobile .accordionContent{
+        text-align: left; 
+        margin-left: 1rem;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        width:800px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease-out;
+    }
+    
+    .support .mobile .accordionContent.active {
+        max-height: 1000px;
+        transition: max-height 1s ease-in;
+    }
+    
+    .support .mobile .accordionContent .image{
+        margin-left: 1.5rem;
+    }
+    
+    .support .mobile .accordionBullet{    
+        background-color: #205696;
+        width: 75px;
+        padding-top: 1.3rem;
+        margin-left: 60px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .support .mobile .accordionH{
+        width: 200px;
+        text-align: left;
+        margin-left: 30px;
+        font-family: 'Urbanist';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;  
+    }
+}

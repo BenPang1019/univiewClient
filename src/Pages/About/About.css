@@ -1,0 +1,664 @@
+.about{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+    margin-top: -1rem;
+}
+
+.about .web .image{
+    width: 100%;
+    margin-top: -1rem;
+}
+
+.about .web .containerOne .containerOneHOne{
+    margin-left: -65rem;
+    margin-top: -12rem;
+    color: white;
+    font-size: 128px;
+}
+
+.about .web .containerOne .containerOneHTwo{
+    margin-top: -3rem;
+    margin-left: -73rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+
+}
+
+.about .web .containerOne .containerOneHThree{
+    margin-top: -13rem;
+    margin-left: 66rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.about .web .containerTwo{
+    background-color: #205696;
+    margin-top: 10rem;
+    height: 20rem;
+}
+
+.about .web .marginTest{
+    margin-left: -9.5rem;
+}
+
+.about .web .containerTwoHOne{
+    display: inline-block;
+    font-size: 96px;
+    color: white;
+    padding-left: 10rem;
+}
+
+.about .web .margin{
+    margin-left: -14.5rem;
+    margin-top: -5rem;
+}
+
+.about .web .containerTwoHTwo{
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    padding-left: 15rem;
+    
+}
+
+.about .web .containerThree{
+    width: 885px;
+    height: 96px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .web .containerThree .containerThreeHOne{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .web .containerThree .containerThreePOne{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .web .imageContainer .image{
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.about .web .containerFour{
+    width: 50rem;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .web .containerFourHOne{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .web .containerFourHTwo{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .web .containerFive{
+    width: 90rem;
+    margin-top: 5rem;
+    margin-bottom: -12rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.about .web .containerFive .containerImage{
+    display: inline-block;
+    margin-top: -5rem;
+    padding: 4rem;
+}
+
+.about .web .containerFive .containerImageH{
+    color: #205696;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about .web .containerFive .containerImageP{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.about .web .containerFiveButton{
+    text-decoration: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 24px;
+    color: white;
+    transition: all .2s ease-in-out;
+    border:  solid 3px;
+    cursor: pointer;
+    margin-top: 2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about .web  .containerFiveButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}
+
+
+
+/* Mobile */
+@media (min-width: 350px) and (max-width: 480px)  {
+.about{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.about .mobile .image{
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.about .mobile .containerOne .containerOneHOne{
+    margin-left: 0rem;
+    margin-top: -3.5rem;
+    color: white;
+    font-size: 50px;
+}
+
+.about .mobile .containerOne .containerOneHTwo{
+    margin-top: 0rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+    color: #205696;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerOne .containerOneHThree{
+    margin-top: 0rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerTwo{
+    background-color: #205696;
+    margin-top: 10rem;
+    padding-top: 3rem;
+    height: 25rem;
+}
+
+.about .mobile .containerTwoHOne{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.about .mobile .containerTwoHTwo{
+    font-size: 25px;
+    color: white;
+    margin-top: -4rem;
+}
+
+.about .mobile .containerThree{
+    width: 350px;
+    height: 200px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.about .mobile .containerThree .containerThreeHOne{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .mobile .containerThree .containerThreePOne{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .mobile .imageContainer .image{
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.about .mobile .containerFour{
+    width: 350px;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerFourHOne{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .mobile .containerFourHTwo{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .mobile .containerFive{
+    width: 350px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerFive .containerImage{
+    margin-top: -5rem;
+    padding: 4rem;
+}
+
+.about .mobile .containerFive .containerImageH{
+    color: #205696;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about .mobile .containerFive .containerImageP{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about .mobile .containerFiveButton{
+    text-decoration: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 24px;
+    color: white;
+    transition: all .2s ease-in-out;
+    border:  solid 3px;
+    cursor: pointer;
+}
+
+.about .mobile  .containerFiveButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+} 
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px)  {
+.about{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.about .mobile .image{
+    width: 768px;
+    margin-top: -1rem;
+}
+
+.about .mobile .containerOne .containerOneHOne{
+    margin-left: 0rem;
+    margin-top: -3.5rem;
+    color: white;
+    font-size: 50px;
+}
+
+.about .mobile .containerOne .containerOneHTwo{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #205696;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerOne .containerOneHThree{
+    margin-top: 0rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerTwo{
+    background-color: #205696;
+    margin-top: 10rem;
+    padding-top: 3rem;
+    height: 35rem;
+}
+
+.about .mobile .containerTwoHOne{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.about .mobile .containerTwoHTwo{
+    font-size: 35px;
+    color: white;
+    margin-top: -4rem;
+}
+
+.about .mobile .containerThree{
+    height: 200px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 400px;
+
+}
+
+.about .mobile .containerThree .containerThreeHOne{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .mobile .containerThree .containerThreePOne{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .mobile .imageContainer .image{
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.about .mobile .containerFour{
+    width: 400px;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerFourHOne{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .mobile .containerFourHTwo{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .mobile .containerFive{
+    width: 480px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerFive .containerImage{
+    margin-top: -5rem;
+    padding: 4rem;
+}
+
+.about .mobile .containerFive .containerImageH{
+    color: #205696;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about .mobile .containerFive .containerImageP{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about .mobile .containerFiveButton{
+    text-decoration: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 24px;
+    color: white;
+    transition: all .2s ease-in-out;
+    border:  solid 3px;
+    cursor: pointer;
+}
+
+.about .mobile  .containerFiveButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+}  
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 1340px)  {
+.about{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Urbanist';
+}
+
+.about .mobile .image{
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.about .mobile .containerOne .containerOneHOne{
+    margin-left: 0rem;
+    margin-top: -3.5rem;
+    color: white;
+    font-size: 50px;
+}
+
+.about .mobile .containerOne .containerOneHTwo{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #205696;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerOne .containerOneHThree{
+    margin-top: 0rem;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerTwo{
+    background-color: #205696;
+    margin-top: 10rem;
+    padding-top: 3rem;
+    height: 35rem;
+}
+
+.about .mobile .containerTwoHOne{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.about .mobile .containerTwoHTwo{
+    font-size: 35px;
+    color: white;
+    margin-top: -4rem;
+}
+
+.about .mobile .containerThree{
+    height: 200px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 600px;
+}
+
+.about .mobile .containerThree .containerThreeHOne{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .mobile .containerThree .containerThreePOne{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .mobile .imageContainer .image{
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.about .mobile .containerFour{
+    width: 768px;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerFourHOne{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #205696;
+}
+
+.about .mobile .containerFourHTwo{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about .mobile .containerFive{
+    width: 480px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .mobile .containerFive .containerImage{
+    margin-top: -5rem;
+    padding: 4rem;
+}
+
+.about .mobile .containerFive .containerImageH{
+    color: #205696;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about .mobile .containerFive .containerImageP{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about .mobile .containerFiveButton{
+    text-decoration: none;
+    width: 142px;
+    height: 50px;
+    background: #205696;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 24px;
+    color: white;
+    transition: all .2s ease-in-out;
+    border:  solid 3px;
+    cursor: pointer;
+}
+
+.about .mobile  .containerFiveButton:hover{
+    transform: scale(1.1); 
+    background: white; 
+    color: #205696;
+    border:  solid 3px #205696;
+    border-radius: 7px;
+} 
+}
